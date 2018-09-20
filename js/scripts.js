@@ -10,15 +10,15 @@ $(document).ready(function() {
 
     var results = seasonsAnswer + accessoryAnswer + cuisineAnswer + prankAnswer + relaxAnswer + liveAnswer
 
-    if (results <= 9) {
+    if (results >= 6 && results <= 9) {
       $("#pikachu").show();
       $("body").addClass(".pikachuBackground");
     }
-    else if(results <= 10){
+    else if(results >= 10 && results <= 14){
       $("#bulbasaur").show();
       $("body").addClass(".bulbasaurBackground");
     }
-    else if (results <= 20){
+    else if (results >= 15 && results <= 18){
       $("#squirtle").show();
       $("body").addClass(".squirtleBackground");
     }
