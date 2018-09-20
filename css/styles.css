@@ -1,7 +1,24 @@
-#pikachu, #bulbasaur, #squirtle {
-    display: none;
+body {
+  font-family: 'Raleway', sans-serif;
+  background-image: linear-gradient(#ffd6e3, #d6fcff, #d6ffe5);
+}
+h1{
+  font-family: 'Spirax', cursive;
+  font-size: 6em;
 }
 img {
     max-width: 100%;
     height: auto;
+}
+.pikachu {
+  background-image: radial-gradient(#00ee80, #80eebb, #CDD220);
+}
+.bulbasaur {
+  background-image: radial-gradient(#42f47d, #d7f4e1, #d7e0f4);
+}
+.squirtle {
+  background-image: linear-gradient(#f4d7f3, #d1fce6);
+}
+#pikachu, #bulbasaur, #squirtle {
+    display: none;
 }

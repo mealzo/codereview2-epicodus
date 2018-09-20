@@ -15,15 +15,18 @@ $(document).ready(function() {
     //if statements are based on a scale where all my 'a' answers equals 1 and so on
     if (results >= 5 && results <= 8) {
       $("#pikachu").show();
-      $("body").addClass(".pikachuBackground");
+      $(".questions").hide();
+      $("body").addClass("pikachu");
     }
     else if(results >= 9 && results <= 13){
       $("#bulbasaur").show();
-      $("body").addClass(".bulbasaurBackground");
+      $(".questions").hide();
+      $("body").addClass("bulbasaur");
     }
     else if (results >= 14 && results <= 18){
       $("#squirtle").show();
-      $("body").addClass(".squirtleBackground");
+      $(".questions").hide();
+      $("body").addClass("squirtle");
     }
   });
 });
