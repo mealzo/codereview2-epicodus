@@ -13,7 +13,7 @@ _answer the questions with a dropdown menu_
 _submit for result_
 
 ##Github:
-_
+_https://github.com/mealzo/codereview2-epicodus.git_
 
 
 ###copyright and license info
